@@ -7,7 +7,8 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaCode, FaLinkedinIn } from "react-icons/fa";
+import { SiFrontendmentor } from "react-icons/si";
 
 function Home2() {
   return (
@@ -94,12 +95,22 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/Shubhangam"
+                  href="https://www.frontendmentor.io/profile/Shubhangam333"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <SiFrontendmentor />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://icodethis.com/user527"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaCode />
                 </a>
               </li>
             </ul>

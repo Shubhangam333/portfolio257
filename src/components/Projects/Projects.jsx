@@ -1,12 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import RapidChat from "../../Assets/Projects/rapid-chat.png";
+import Ecom from "../../Assets/Projects/ecom-mern.png";
+import CountryApp from "../../Assets/Projects/country-app.png";
+import JobListing from "../../Assets/Projects/job-search.png";
+import MernBlog from "../../Assets/Projects/mern-blog.png";
 
 function Projects() {
   return (
@@ -22,68 +21,53 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Ecom}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink=""
-              demoLink=""
+              title="Ecommerce"
+              description="Crafted using the MERN stack alongside Redux Toolkit and integrated with Stripe payments, my ecommerce website is a comprehensive platform offering a seamless shopping experience. Users can browse through an extensive product catalog, add items to their cart, and securely checkout with Stripe. The site features robust user authentication, an intuitive shopping cart system, and an admin dashboard for managing orders."
+              ghLink="https://github.com/Shubhangam333/ecommerce-2.0"
+              demoLink="https://ecom527-client.onrender.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={RapidChat}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink=""
-              demoLink=""
+              title="RapidChat"
+              description="My chatting application, developed using Socket.io, Node.js, and Next.js, offers a seamless and real-time communication platform. Users can engage in instant messaging with friends or colleagues through individual or group chats. The application boasts features such as message notifications, typing indicators, and message history retrieval. With its responsive design and efficient backend architecture powered by Socket.io for real-time data transfer, this application fosters seamless communication among users."
+              ghLink="https://github.com/Shubhangam333/RapidChat/"
+              demoLink="https://rapid-chat-silk.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={CountryApp}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink=""
-              demoLink=""
+              title="CountryApp"
+              description="This React app harnesses the power of the Context API alongside the REST Countries API to offer users a rich and educational experience. By integrating the REST Countries API, users can explore detailed information about various countries, including their name, population, capital, languages spoken, and more. Additionally, I've incorporated a color theme switcher feature, allowing users to personalize their viewing experience based on their preferences. "
+              ghLink="https://github.com/Shubhangam333/World-Country-App"
+              demoLink="https://profound-snickerdoodle-3b27db.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={JobListing}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink=""
-              demoLink=""
+              title="JobListing"
+              description="My React application leverages the Context API to create a seamless job listing platform with advanced filtering capabilities. Users can browse through a diverse range of job listings and easily filter them based on criteria such as job title, location, company, and job type. The app offers a user-friendly interface, allowing job seekers to quickly find relevant opportunities that match their preferences and qualifications. By harnessing the power of React's component-based architecture and the Context API for state management, the app ensures efficient data handling and smooth interaction. "
+              ghLink="https://github.com/Shubhangam333/Frontend-Mentor---Job-listings-with-filtering-solution"
+              demoLink="https://lighthearted-bunny-f12f74.netlify.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={MernBlog}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink=""
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink=""
-              // demoLink="https://"      <--------Please include a demo link here
+              title="DevBlog"
+              description="My React application leverages the Context API to create a seamless job listing platform with advanced filtering capabilities. Users can browse through a diverse range of job listings and easily filter them based on criteria such as job title, location, company, and job type. The app offers a user-friendly interface, allowing job seekers to quickly find relevant opportunities that match their preferences and qualifications. By harnessing the power of React's component-based architecture and the Context API for state management, the app ensures efficient data handling and smooth interaction. "
+              ghLink="https://github.com/Shubhangam333/DevBlog/"
+              demoLink="https://devblog-wjcy.onrender.com/"
             />
           </Col>
         </Row>
