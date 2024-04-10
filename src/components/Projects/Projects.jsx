@@ -6,6 +6,7 @@ import Ecom from "../../Assets/Projects/ecom-mern.png";
 import CountryApp from "../../Assets/Projects/country-app.png";
 import JobListing from "../../Assets/Projects/job-search.png";
 import MernBlog from "../../Assets/Projects/mern-blog.png";
+import MernBooking from "../../Assets/Projects/mern-booking.png";
 
 function Projects() {
   return (
@@ -24,7 +25,7 @@ function Projects() {
               imgPath={Ecom}
               isBlog={false}
               title="Ecommerce"
-              description="Crafted using the MERN stack alongside Redux Toolkit and integrated with Stripe payments, my ecommerce website is a comprehensive platform offering a seamless shopping experience. Users can browse through an extensive product catalog, add items to their cart, and securely checkout with Stripe. The site features robust user authentication, an intuitive shopping cart system, and an admin dashboard for managing orders."
+              description="Crafted using the MERN stack alongside Redux Toolkit and integrated with Stripe payments, my ecommerce website is a comprehensive platform offering a seamless shopping experience. Users can browse through an extensive product catalog, add items to their cart, and securely checkout with Stripe. The site features robust user authentication, an intuitive shopping cart system, and an admin dashboard for managing orders. With a responsive design and emphasis on security, including JWT authentication and secure payment processing, this project demonstrates my ability to develop scalable and feature-rich web applications"
               ghLink="https://github.com/Shubhangam333/ecommerce-2.0"
               demoLink="https://ecom527-client.onrender.com/"
             />
@@ -40,6 +41,28 @@ function Projects() {
               demoLink="https://rapid-chat-silk.vercel.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MernBlog}
+              isBlog={false}
+              title="DevBlog"
+              description="Introducing my cutting-edge MERN blog web app, powered by React, Node.js, Firebase, and Tailwind CSS. This innovative platform not only enables seamless blogging but also features an integrated dashboard for effortless content management. With the latest technologies at its core, users can create, edit, and publish captivating blog posts with ease. The sleek and responsive design ensures an exceptional user experience across devices. Leveraging Firebase for real-time data synchronization and Node.js for backend functionality, this app sets new standards for modern blogging platforms, offering a dynamic and efficient solution for both bloggers and content managers alike."
+              ghLink="https://github.com/Shubhangam333/DevBlog/"
+              demoLink="https://devblog-wjcy.onrender.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={MernBooking}
+              isBlog={false}
+              title="Mern Booking"
+              description="Introducing my cutting-edge MERN hotel booking web app, seamlessly integrating React, Node.js, React Query, Tailwind CSS, and Stripe for a top-tier user experience. Users can effortlessly browse and book hotel rooms, while hosts can easily list their properties. With real-time updates and dynamic content management, the platform ensures smooth interactions. The payment process is secure and efficient, facilitated by Stripe integration. Leveraging the latest technologies, including React Query for optimized data fetching and Tailwind CSS for sleek design, this app revolutionizes the hotel booking experience."
+              ghLink="https://github.com/Shubhangam333/hotelbooking"
+              demoLink="https://hotelbooking-uu3q.onrender.com"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={CountryApp}
@@ -58,16 +81,6 @@ function Projects() {
               description="My React application leverages the Context API to create a seamless job listing platform with advanced filtering capabilities. Users can browse through a diverse range of job listings and easily filter them based on criteria such as job title, location, company, and job type. The app offers a user-friendly interface, allowing job seekers to quickly find relevant opportunities that match their preferences and qualifications. By harnessing the power of React's component-based architecture and the Context API for state management, the app ensures efficient data handling and smooth interaction. "
               ghLink="https://github.com/Shubhangam333/Frontend-Mentor---Job-listings-with-filtering-solution"
               demoLink="https://lighthearted-bunny-f12f74.netlify.app/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={MernBlog}
-              isBlog={false}
-              title="DevBlog"
-              description="My React application leverages the Context API to create a seamless job listing platform with advanced filtering capabilities. Users can browse through a diverse range of job listings and easily filter them based on criteria such as job title, location, company, and job type. The app offers a user-friendly interface, allowing job seekers to quickly find relevant opportunities that match their preferences and qualifications. By harnessing the power of React's component-based architecture and the Context API for state management, the app ensures efficient data handling and smooth interaction. "
-              ghLink="https://github.com/Shubhangam333/DevBlog/"
-              demoLink="https://devblog-wjcy.onrender.com/"
             />
           </Col>
         </Row>
