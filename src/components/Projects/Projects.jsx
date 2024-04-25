@@ -7,6 +7,7 @@ import CountryApp from "../../Assets/Projects/country-app.png";
 import JobListing from "../../Assets/Projects/job-search.png";
 import MernBlog from "../../Assets/Projects/mern-blog.png";
 import MernBooking from "../../Assets/Projects/mern-booking.png";
+import SocioVerse from "../../Assets/Projects/socioverse-main.png";
 
 function Projects() {
   return (
@@ -41,7 +42,16 @@ function Projects() {
               demoLink="https://rapid-chat-silk.vercel.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SocioVerse}
+              isBlog={false}
+              title="SocioVerse"
+              description="SocioVerse is a vibrant social networking platform offering a seamless user experience. With features including post creation and updates, interactive comments and replies, real-time updates, and user-to-user communication through chat, audio, and video calls, SocioVerse fosters engaging and meaningful interactions. Users can effortlessly stay connected with friends, family, and communities while enjoying the flexibility to follow or unfollow other users based on their preferences. Whether sharing thoughts, multimedia content, or engaging in live conversations, SocioVerse provides a dynamic space for users to connect, collaborate, and cultivate relationships in a modern digital environment. "
+              ghLink="https://github.com/Shubhangam333/SocioVerse"
+              demoLink="https://socio-verse-client.onrender.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={MernBlog}
